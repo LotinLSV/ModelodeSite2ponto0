@@ -1,0 +1,145 @@
+/* Menu e cabeçalho */
+
+.box-cabecalho{
+    border:2px solid black;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    background-color: rgb(2, 32, 58);
+}
+
+.box-menu-itens{
+    /* border: 2px solid red; */
+    width: 30%;
+}
+
+.itens-menus{
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.box-menu-botoes{
+    margin-left:65%;
+    margin-top: 12px;
+    width: 300px;
+    height: 40px;
+    /* border: 2px solid orange; */
+}
+
+.bt-login-menu{
+    margin-left: 20px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+
+.bt-login-menu:hover{
+    background-color: #02524F;
+    color: white;
+    font-weight: bold;
+}
+
+#box-contato{
+    position: absolute;
+    margin-left: 60px;
+    width: 220px;
+    height: 20px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    background-color: rgba(174, 214, 250, 0.2);
+    display: none;
+}
+.menu-contato{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu-contato1{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+
+body{
+    background-color: #c8d9fe48;
+}
+
+/* configurações do Main */
+
+#box-tudo-corpo{
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 33%;
+}
+
+h1{
+    margin-left:  10%;
+    margin-bottom: 40px;
+}
+
+#box-primeiro-paragrafo{
+    font-size: 23px;
+    width: 33%;
+    /* border: 2px solid black; */
+    height: 650px;
+    display:flex;
+}
+
+.span-primeiro-paragrafo{
+    font-weight: bold;
+    color:rgb(158, 107, 11);
+}
+
+h2{
+    font-size: 22px;
+    margin-left: 28%;
+}
+
+#box-segundo-paragrafo{
+    border: 2px solid black;
+    width: 33%;
+    height: 450px;
+    font-size:20px;
+}
+
+.span-segundo-paragrafo{
+    font-weight: bold;
+}
+
+/* carrosel */
+.carrosel{
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.c-d{
+    object-fit: cover;
+}
+
+.carouselExample{
+    width: 400px;
+    height: 650px;
+}
+
+
