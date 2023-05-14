@@ -1,28 +1,13 @@
-const { Translate } = require("embla-carousel/components/Translate");
 
-
-
-const itens = document.getElementById('primeiro');
-
-const item = document.querySelectorAll('#primeiro .c-d')
-
-let idx = 0;
-
-function carrosel(){
-    idx++;
-    if (idx > item.length - 1){
-        idx = 0;
-    }
-
-    item.style.transform = 'TranslateX(${-idx * 20px})';
+function ocultaSecao(){
+    document.getElementById('secao-login').style.display = "none";
 
 }
 
-
-setInterval(carrosel, 1800);
-
-
-
+function mostraSecao(){
+    document.getElementById('secao-login').style.display = "block";
+   
+}
 
 function ocultaContato(){
     document.getElementById('box-contato').style.display = "none";
