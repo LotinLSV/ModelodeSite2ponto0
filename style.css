@@ -95,6 +95,12 @@ body{
 
 
 
+#div-escrita{
+    border: solid 1px black;
+    position: absolute;
+    
+}
+
 
 #box-tudo-corpo{
     width: 100%;
